@@ -1,0 +1,15 @@
+my-bigquery-db:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      location: us-central1
+      project: burner-madkhand
+      dataset: dbt_demo # You can also use "schema" here
+      threads: 1
+#      client_id: "151987397314-10efk4f6fdfkajmmjriddk4mgb71je82.apps.googleusercontent.com"
+#      token_uri: "https://oauth2.googleapis.com/token"
+#      client_secret: "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"
+      priority: interactive
+

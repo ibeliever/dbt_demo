@@ -1,0 +1,9 @@
+
+
+============================== 2022-07-23 11:27:28.910683 | 5503a4bc-9ca1-4ce8-a889-f27d7ec83fd0 ==============================
+11:27:28.910683 [info ] [MainThread]: Running with dbt=1.1.1
+11:27:28.910683 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\madkhand\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'learn_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+11:27:28.910683 [debug] [MainThread]: Tracking: tracking
+11:27:29.009430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE3BD2BA60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE3BD22A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE3BD22D30>]}
+11:27:29.019853 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\madkhand\.dbt
+11:27:29.021353 [debug] [MainThread]: Starter project path: C:\Users\madkhand\AppData\Roaming\Python\Python39\site-packages\dbt\include\starter_project
